@@ -6,7 +6,10 @@ export default [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['http://localhost:3000'], 
+      origin: [
+        'http://localhost:3000', // local dev
+        'https://quantalynk-git-main-engkushpatelofficial-4022s-projects.vercel.app', // production frontend
+      ],
       methods: ['GET','POST','PUT','PATCH','DELETE','HEAD','OPTIONS'],
     },
   },
