@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_buildings",
+  "info": {
+    "singularName": "about-building",
+    "pluralName": "about-buildings",
+    "displayName": "about Building"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leftText": {
+      "type": "string"
+    },
+    "highlightText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "string"
+    },
+    "middleText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

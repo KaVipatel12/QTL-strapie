@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_blogs",
+  "info": {
+    "singularName": "hero-blog",
+    "pluralName": "hero-blogs",
+    "displayName": "Hero Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "highlightText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

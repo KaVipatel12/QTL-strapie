@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_cloud_devops",
+  "info": {
+    "singularName": "service-cloud-devop",
+    "pluralName": "service-cloud-devops",
+    "displayName": "Service Cloud Devop"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

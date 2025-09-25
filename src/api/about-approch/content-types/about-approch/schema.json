@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_approches",
+  "info": {
+    "singularName": "about-approch",
+    "pluralName": "about-approches",
+    "displayName": "About Approch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "leftText": {
+      "type": "string"
+    },
+    "highlightText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ourValue": {
+      "type": "string"
+    },
+    "valueDescription": {
+      "type": "text"
+    },
+    "valueDecrip": {
+      "type": "string"
+    },
+    "ourMission": {
+      "type": "string"
+    },
+    "missionDesrip": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "text"
+    },
+    "desc3": {
+      "type": "string"
+    },
+    "desc4": {
+      "type": "string"
+    },
+    "ourVision": {
+      "type": "string"
+    },
+    "visionDescrip": {
+      "type": "text"
+    },
+    "visionDescri": {
+      "type": "string"
+    }
+  }
+}

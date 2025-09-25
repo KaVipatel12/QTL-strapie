@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_contents",
+  "info": {
+    "singularName": "hero-content",
+    "pluralName": "hero-contents",
+    "displayName": "Hero content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "mapEmbed": {
+      "type": "text"
+    },
+    "addtitle": {
+      "type": "string"
+    },
+    "emailtitle": {
+      "type": "string"
+    },
+    "phonetitle": {
+      "type": "string"
+    }
+  }
+}

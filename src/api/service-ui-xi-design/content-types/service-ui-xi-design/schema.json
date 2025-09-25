@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_ui_xi_designs",
+  "info": {
+    "singularName": "service-ui-xi-design",
+    "pluralName": "service-ui-xi-designs",
+    "displayName": "Service UI XI Design"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "desc1": {
+      "type": "string"
+    },
+    "desc2": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_abouts",
+  "info": {
+    "singularName": "hero-about",
+    "pluralName": "hero-abouts",
+    "displayName": "Hero About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

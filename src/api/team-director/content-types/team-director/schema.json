@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_directors",
+  "info": {
+    "singularName": "team-director",
+    "pluralName": "team-directors",
+    "displayName": "Team Director"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "leftText": {
+      "type": "string"
+    },
+    "highlightText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "string"
+    }
+  }
+}

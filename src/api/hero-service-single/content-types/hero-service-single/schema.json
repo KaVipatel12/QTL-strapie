@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_service_singles",
+  "info": {
+    "singularName": "hero-service-single",
+    "pluralName": "hero-service-singles",
+    "displayName": "Hero service single"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "text"
+    }
+  }
+}

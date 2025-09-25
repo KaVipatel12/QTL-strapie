@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_who_we_ares",
+  "info": {
+    "singularName": "about-who-we-are",
+    "pluralName": "about-who-we-ares",
+    "displayName": "About WhoWeAre"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "leftText": {
+      "type": "string"
+    },
+    "highlightText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img1": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img2": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fourteenWe": {
+      "type": "string"
+    },
+    "yearExperience": {
+      "type": "string"
+    }
+  }
+}

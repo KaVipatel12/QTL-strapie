@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_menus",
+  "info": {
+    "singularName": "service-menu",
+    "pluralName": "service-menus",
+    "displayName": "Service Menu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

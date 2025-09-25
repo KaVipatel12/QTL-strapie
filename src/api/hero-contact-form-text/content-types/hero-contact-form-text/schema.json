@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_contact_form_texts",
+  "info": {
+    "singularName": "hero-contact-form-text",
+    "pluralName": "hero-contact-form-texts",
+    "displayName": "Hero Contact form Text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nametext": {
+      "type": "string"
+    },
+    "emailtext": {
+      "type": "string"
+    },
+    "phonetext": {
+      "type": "string"
+    },
+    "messagetext": {
+      "type": "string"
+    }
+  }
+}

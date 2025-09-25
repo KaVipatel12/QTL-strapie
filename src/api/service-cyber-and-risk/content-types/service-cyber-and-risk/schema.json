@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_cyber_and_risks",
+  "info": {
+    "singularName": "service-cyber-and-risk",
+    "pluralName": "service-cyber-and-risks",
+    "displayName": "Service Cyber & Risk"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "string"
+    },
+    "desc2": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
