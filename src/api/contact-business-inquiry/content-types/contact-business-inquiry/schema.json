@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_business_inquiries",
+  "info": {
+    "singularName": "contact-business-inquiry",
+    "pluralName": "contact-business-inquiries",
+    "displayName": "Contact BusinessInquiry"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

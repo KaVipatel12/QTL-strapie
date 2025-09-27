@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_steps",
+  "info": {
+    "displayName": "Steps"
+  },
+  "options": {},
+  "attributes": {
+    "solution1": {
+      "type": "string"
+    },
+    "solution2": {
+      "type": "string"
+    },
+    "solution3": {
+      "type": "string"
+    },
+    "solution4": {
+      "type": "string"
+    },
+    "solution5": {
+      "type": "string"
+    },
+    "solution6": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

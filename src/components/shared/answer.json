@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_answers",
+  "info": {
+    "displayName": "Answer"
+  },
+  "options": {},
+  "attributes": {
+    "Answer1": {
+      "type": "string"
+    },
+    "Answer2": {
+      "type": "string"
+    },
+    "Answer3": {
+      "type": "string"
+    },
+    "Answer4": {
+      "type": "string"
+    },
+    "Answer5": {
+      "type": "string"
+    },
+    "Answer6": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

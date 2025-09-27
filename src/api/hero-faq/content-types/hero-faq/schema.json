@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "hero_faqs",
   "info": {
     "singularName": "hero-faq",
@@ -11,11 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "question": {
-      "type": "text"
-    },
-    "Answer": {
-      "type": "blocks"
+    "Faq": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.faq",
+        "shared.answer"
+      ]
     }
   }
 }

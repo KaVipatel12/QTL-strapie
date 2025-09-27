@@ -51,6 +51,19 @@
     },
     "yearExperience": {
       "type": "string"
+    },
+    "ceoName": {
+      "type": "string"
+    },
+    "ceoImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

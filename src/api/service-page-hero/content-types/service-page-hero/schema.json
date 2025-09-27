@@ -1,26 +1,20 @@
 {
-  "kind": "collectionType",
-  "collectionName": "hero_trusted_points",
+  "kind": "singleType",
+  "collectionName": "service_page_heroes",
   "info": {
-    "singularName": "hero-trusted-point",
-    "pluralName": "hero-trusted-points",
-    "displayName": "Hero Trusted point"
+    "singularName": "service-page-hero",
+    "pluralName": "service-page-heroes",
+    "displayName": "ServicePage Hero "
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "titles": {
+    "Heading1": {
       "type": "string"
     },
-    "desc1": {
-      "type": "text"
-    },
-    "desc2": {
-      "type": "text"
-    },
-    "desc3": {
+    "Heading2": {
       "type": "string"
     },
     "img": {

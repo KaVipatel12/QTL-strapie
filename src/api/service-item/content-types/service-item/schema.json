@@ -1,26 +1,26 @@
 {
   "kind": "collectionType",
-  "collectionName": "hero_trusted_points",
+  "collectionName": "service_items",
   "info": {
-    "singularName": "hero-trusted-point",
-    "pluralName": "hero-trusted-points",
-    "displayName": "Hero Trusted point"
+    "singularName": "service-item",
+    "pluralName": "service-items",
+    "displayName": "Service Item"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "titles": {
+    "Heading": {
       "type": "string"
     },
-    "desc1": {
-      "type": "text"
+    "SubHeading": {
+      "type": "string"
     },
-    "desc2": {
-      "type": "text"
+    "RightPara": {
+      "type": "string"
     },
-    "desc3": {
+    "LeftPara": {
       "type": "string"
     },
     "img": {
@@ -32,6 +32,9 @@
         "videos",
         "audios"
       ]
+    },
+    "service_id": {
+      "type": "uid"
     }
   }
 }

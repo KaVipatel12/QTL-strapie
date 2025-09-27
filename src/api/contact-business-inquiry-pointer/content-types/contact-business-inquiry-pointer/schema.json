@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_business_inquiry_pointers",
+  "info": {
+    "singularName": "contact-business-inquiry-pointer",
+    "pluralName": "contact-business-inquiry-pointers",
+    "displayName": "Contact BusinessInquiry-Pointer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pointers": {
+      "type": "string"
+    }
+  }
+}

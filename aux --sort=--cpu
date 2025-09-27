@@ -1,0 +1,412 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  23656 13948 ?        Ss   09:31   0:05 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    09:31   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    09:31   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        I    09:31   0:00 [rcu_tasks_kthread]
+root          15  0.0  0.0      0     0 ?        I    09:31   0:00 [rcu_tasks_rude_kthread]
+root          16  0.0  0.0      0     0 ?        I    09:31   0:00 [rcu_tasks_trace_kthread]
+root          17  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/0]
+root          18  0.1  0.0      0     0 ?        I    09:31   0:36 [rcu_preempt]
+root          19  0.0  0.0      0     0 ?        S    09:31   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          20  0.0  0.0      0     0 ?        S    09:31   0:00 [rcu_exp_gp_kthread_worker]
+root          21  0.0  0.0      0     0 ?        S    09:31   0:03 [migration/0]
+root          22  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/0]
+root          23  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/0]
+root          24  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/2]
+root          25  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/2]
+root          26  0.0  0.0      0     0 ?        S    09:31   0:02 [migration/2]
+root          27  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/2]
+root          29  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/2:0H-events_highpri]
+root          30  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/4]
+root          31  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/4]
+root          32  0.0  0.0      0     0 ?        S    09:31   0:01 [migration/4]
+root          33  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/4]
+root          35  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/4:0H-events_highpri]
+root          36  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/6]
+root          37  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/6]
+root          38  0.0  0.0      0     0 ?        S    09:31   0:02 [migration/6]
+root          39  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/6]
+root          41  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/6:0H-events_highpri]
+root          42  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/8]
+root          43  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/8]
+root          44  0.0  0.0      0     0 ?        S    09:31   0:13 [migration/8]
+root          45  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/8]
+root          47  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/8:0H-events_highpri]
+root          48  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/9]
+root          49  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/9]
+root          50  0.0  0.0      0     0 ?        S    09:31   0:06 [migration/9]
+root          51  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/9]
+root          53  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/9:0H-events_highpri]
+root          54  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/10]
+root          55  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/10]
+root          56  0.0  0.0      0     0 ?        S    09:31   0:04 [migration/10]
+root          57  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/10]
+root          59  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/10:0H-events_highpri]
+root          60  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/11]
+root          61  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/11]
+root          62  0.0  0.0      0     0 ?        S    09:31   0:03 [migration/11]
+root          63  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/11]
+root          65  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/11:0H-events_highpri]
+root          66  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/1]
+root          67  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/1]
+root          68  0.0  0.0      0     0 ?        S    09:31   0:00 [migration/1]
+root          69  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/1]
+root          71  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/1:0H-events_highpri]
+root          72  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/3]
+root          73  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/3]
+root          74  0.0  0.0      0     0 ?        S    09:31   0:00 [migration/3]
+root          75  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/3]
+root          77  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/3:0H-i915_cleanup]
+root          78  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/5]
+root          79  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/5]
+root          80  0.0  0.0      0     0 ?        S    09:31   0:00 [migration/5]
+root          81  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/5]
+root          83  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/5:0H-events_highpri]
+root          84  0.0  0.0      0     0 ?        S    09:31   0:00 [cpuhp/7]
+root          85  0.0  0.0      0     0 ?        S    09:31   0:00 [idle_inject/7]
+root          86  0.0  0.0      0     0 ?        S    09:31   0:00 [migration/7]
+root          87  0.0  0.0      0     0 ?        S    09:31   0:00 [ksoftirqd/7]
+root          89  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/7:0H-events_highpri]
+root          90  0.0  0.0      0     0 ?        S    09:31   0:00 [kdevtmpfs]
+root          91  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-inet_frag_wq]
+root          92  0.0  0.0      0     0 ?        S    09:31   0:00 [kauditd]
+root          93  0.0  0.0      0     0 ?        S    09:31   0:00 [khungtaskd]
+root          94  0.0  0.0      0     0 ?        S    09:31   0:00 [oom_reaper]
+root          97  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-writeback]
+root          98  0.0  0.0      0     0 ?        S    09:31   0:01 [kcompactd0]
+root          99  0.0  0.0      0     0 ?        SN   09:31   0:00 [ksmd]
+root         100  0.0  0.0      0     0 ?        SN   09:31   0:00 [khugepaged]
+root         101  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-kintegrityd]
+root         102  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-kblockd]
+root         103  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-blkcg_punt_bio]
+root         105  0.0  0.0      0     0 ?        S    09:31   0:05 [irq/9-acpi]
+root         108  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-tpm_dev_wq]
+root         110  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-ata_sff]
+root         111  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-md]
+root         112  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-md_bitmap]
+root         113  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-edac-poller]
+root         114  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-devfreq_wq]
+root         115  0.0  0.0      0     0 ?        S    09:31   0:00 [watchdogd]
+root         116  0.0  0.0      0     0 ?        I<   09:31   0:01 [kworker/8:1H-i915_cleanup]
+root         118  0.0  0.0      0     0 ?        S    09:31   0:00 [kswapd0]
+root         119  0.0  0.0      0     0 ?        S    09:31   0:00 [ecryptfs-kthread]
+root         120  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-kthrotld]
+root         121  0.0  0.0      0     0 ?        S    09:31   0:00 [irq/121-pciehp]
+root         123  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-acpi_thermal_pm]
+root         125  0.0  0.0      0     0 ?        S    09:31   0:00 [hwrng]
+root         126  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-hfi-updates]
+root         128  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-mld]
+root         129  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-ipv6_addrconf]
+root         137  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-kstrp]
+root         156  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-charger_manager]
+root         157  0.0  0.0      0     0 ?        I<   09:31   0:01 [kworker/0:1H-i915_cleanup]
+root         182  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/4:1H-kblockd]
+root         185  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/11:1H-i915_cleanup]
+root         187  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/2:1H-i915_cleanup]
+root         203  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/1:1H-i915_cleanup]
+root         204  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/5:1H-kblockd]
+root         232  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/10:1H-i915_cleanup]
+root         233  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/6:1H-kblockd]
+root         234  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/3:1H]
+root         235  0.0  0.0      0     0 ?        I<   09:31   0:01 [kworker/9:1H-kblockd]
+root         236  0.0  0.0      0     0 ?        I<   09:31   0:04 [kworker/7:1H-i915_cleanup]
+root         258  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-nvme-wq]
+root         259  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-nvme-reset-wq]
+root         260  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-nvme-delete-wq]
+root         261  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-nvme-auth-wq]
+root         278  1.0  0.0      0     0 ?        S    09:31   3:24 [irq/142-ELAN06C6:00]
+root         294  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-USBC000:00-con1]
+root         332  0.0  0.0      0     0 ?        S    09:31   0:02 [jbd2/nvme0n1p1-8]
+root         333  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-ext4-rsv-conversion]
+root         382  0.0  0.0  68244 19336 ?        S<s  09:31   0:01 /usr/lib/systemd/systemd-journald
+root         411  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-USBC000:00-con2]
+root         469  0.0  0.0  34808 11960 ?        Ss   09:31   0:08 /usr/lib/systemd/systemd-udevd
+root         502  0.0  0.0      0     0 ?        S    09:31   0:00 [psimon]
+root         572  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-ktpacpid]
+root         581  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-cfg80211]
+root         603  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-cryptd]
+root         605  0.0  0.0      0     0 ?        S    09:31   0:08 [irq/156-iwlwifi:default_queue]
+root         606  0.0  0.0      0     0 ?        S    09:31   0:00 [irq/157-iwlwifi:queue_1]
+root         607  0.0  0.0      0     0 ?        S    09:31   0:01 [irq/158-iwlwifi:queue_2]
+root         608  0.0  0.0      0     0 ?        S    09:31   0:00 [irq/159-iwlwifi:queue_3]
+root         609  0.0  0.0      0     0 ?        S    09:31   0:02 [irq/160-iwlwifi:queue_4]
+root         611  0.0  0.0      0     0 ?        S    09:31   0:01 [irq/161-iwlwifi:queue_5]
+root         613  0.0  0.0      0     0 ?        S    09:31   0:01 [irq/162-iwlwifi:queue_6]
+root         614  0.0  0.0      0     0 ?        S    09:31   0:01 [irq/163-iwlwifi:queue_7]
+root         615  0.0  0.0      0     0 ?        S    09:31   0:03 [irq/164-iwlwifi:queue_8]
+root         616  0.0  0.0      0     0 ?        S    09:31   0:01 [irq/165-iwlwifi:queue_9]
+root         617  0.0  0.0      0     0 ?        S    09:31   0:01 [irq/166-iwlwifi:queue_10]
+root         618  0.0  0.0      0     0 ?        S    09:31   0:04 [irq/167-iwlwifi:queue_11]
+root         619  0.0  0.0      0     0 ?        S    09:31   0:00 [irq/168-iwlwifi:queue_12]
+root         620  0.0  0.0      0     0 ?        S    09:31   0:00 [irq/169-iwlwifi:exception]
+root         650  0.0  0.0      0     0 ?        S    09:31   0:00 [irq/16-processor_thermal_device_pci]
+root         666  0.0  0.0      0     0 ?        I<   09:31   0:00 [kworker/R-ttm]
+root         671  0.0  0.0      0     0 ?        S    09:31   0:00 [card1-crtc0]
+root         672  0.0  0.0      0     0 ?        S    09:31   0:00 [card1-crtc1]
+root         673  0.0  0.0      0     0 ?        S    09:31   0:00 [card1-crtc2]
+root         674  0.0  0.0      0     0 ?        S    09:31   0:00 [card1-crtc3]
+root         675  0.0  0.0      0     0 ?        S    09:31   0:00 [irq/171-AudioDSP]
+systemd+     782  0.0  0.0  19012  8756 ?        Ss   09:31   0:00 /usr/lib/systemd/systemd-networkd
+systemd+     934  0.0  0.0  17560  7440 ?        Ss   09:31   0:06 /usr/lib/systemd/systemd-oomd
+systemd+     942  0.0  0.0  91048  7612 ?        Ssl  09:31   0:00 /usr/lib/systemd/systemd-timesyncd
+avahi       1070  0.0  0.0   8672  4268 ?        Ss   09:31   0:00 avahi-daemon: running [quantalynk-ThinkPad-E14-Gen-5.local]
+root        1071  0.0  0.0  13772  6420 ?        Ss   09:31   0:00 /usr/libexec/bluetooth/bluetoothd
+message+    1072  0.0  0.0  12252  6728 ?        Ss   09:31   0:07 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+    1076  0.0  0.0 365472 16240 ?        Ssl  09:31   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd     1084  0.0  0.0 390992 11584 ?        Ssl  09:31   0:01 /usr/lib/polkit-1/polkitd --no-debug
+root        1089  0.0  0.0 313660  7516 ?        Ssl  09:31   0:01 /usr/libexec/power-profiles-daemon
+root        1105  0.0  0.1 2588492 43692 ?       Ssl  09:31   0:12 /usr/lib/snapd/snapd
+root        1111  0.0  0.0 313424  7720 ?        Ssl  09:31   0:00 /usr/libexec/accounts-daemon
+root        1113  0.0  0.0   9424  2684 ?        Ss   09:31   0:00 /usr/sbin/cron -f -P
+root        1116  0.0  0.0 309720  6476 ?        Ssl  09:31   0:00 /usr/libexec/switcheroo-control
+root        1126  0.0  0.0  18140  8820 ?        Ss   09:31   0:00 /usr/lib/systemd/systemd-logind
+root        1131  0.0  0.0 469784 13232 ?        Ssl  09:31   0:00 /usr/libexec/udisks2/udisksd
+avahi       1163  0.0  0.0   8480  1352 ?        S    09:31   0:00 avahi-daemon: chroot helper
+root        1166  0.0  0.0 689064 19300 ?        Ssl  09:31   0:03 /usr/sbin/NetworkManager --no-daemon
+root        1170  0.0  0.0  18268 11216 ?        Ss   09:31   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+syslog      1223  0.0  0.0 222564  5180 ?        Ssl  09:31   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1278  0.0  0.0 392188 11660 ?        Ssl  09:31   0:00 /usr/sbin/ModemManager
+root        1280  0.0  0.0 313512  7264 ?        Ssl  09:31   0:01 /usr/libexec/boltd
+root        1478  0.0  0.0  38232 11276 ?        Ss   09:31   0:00 /usr/sbin/cupsd -l
+root        1487  0.0  0.1 224004 27948 ?        Ss   09:31   0:01 php-fpm: master process (/etc/php/8.3/fpm/php-fpm.conf)
+redis       1491  0.2  0.0  67904 13052 ?        Ssl  09:31   0:39 /usr/bin/redis-server 127.0.0.1:6379
+root        1494  0.0  0.0 112256 22396 ?        Ssl  09:31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1501  0.1  0.1 2171104 44592 ?       Ssl  09:31   0:21 /usr/bin/containerd
+dnsmasq     1532  0.0  0.0  17072  2840 ?        S    09:31   0:02 /usr/sbin/dnsmasq -x /run/dnsmasq/dnsmasq.pid -u dnsmasq -7 /etc/dnsmasq.d,.dpkg-dist,.dpkg-old,.dpkg-new --local-service --trust-anchor=.,20326,8,2,E06D44B80B8F1D39A95C0B0D7C65D08458E880409BBC683457104237C7F8EC8D --trust-anchor=.,38696,8,2,683D2D0ACB8C9B712A1948B27F741219298D0A450D612C483AF444A4C0FB2B16
+quantal+    1569  0.0  0.0 224632 11200 ?        S    09:31   0:00 php-fpm: pool valet
+quantal+    1570  0.0  0.0 224632 11284 ?        S    09:31   0:00 php-fpm: pool valet
+www-data    1571  0.0  0.0 224616 11328 ?        S    09:31   0:00 php-fpm: pool www
+www-data    1572  0.0  0.0 224616 11284 ?        S    09:31   0:00 php-fpm: pool www
+root        1579  0.0  0.0 388552  8752 ?        Ssl  09:31   0:00 /usr/sbin/gdm3
+mysql       1602  0.9  1.8 3237548 445468 ?      Ssl  09:31   3:00 /usr/sbin/mysqld
+rtkit       1673  0.0  0.0  88476  3428 ?        SNsl 09:31   0:00 /usr/libexec/rtkit-daemon
+root        1805  0.0  0.0      0     0 ?        S<   09:31   0:00 [krfcommd]
+colord      1870  0.0  0.0 320160 14444 ?        Ssl  09:31   0:00 /usr/libexec/colord
+root        1932  0.0  0.0 328224 18592 ?        Ssl  09:31   0:10 /usr/libexec/upowerd
+root        2237  0.0  0.0 463780 10556 ?        Sl   09:31   0:00 gdm-session-worker [pam/gdm-password]
+quantal+    2277  0.0  0.0  21516 13812 ?        Ss   09:31   0:02 /usr/lib/systemd/systemd --user
+quantal+    2284  0.0  0.0  21464  3648 ?        S    09:31   0:00 (sd-pam)
+quantal+    2293  0.0  0.0 122512 20472 ?        Ssl  09:31   0:03 /usr/bin/pipewire
+quantal+    2294  0.0  0.0  97736  5764 ?        Ssl  09:31   0:00 /usr/bin/pipewire -c filter-chain.conf
+quantal+    2297  0.0  0.0  39136 11216 ?        Ss   09:31   0:00 /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+quantal+    2298  0.0  0.0 408120 19600 ?        Ssl  09:31   0:10 /usr/bin/wireplumber
+quantal+    2301  0.0  0.1 148096 39944 ?        Ssl  09:31   0:10 /usr/bin/pipewire-pulse
+quantal+    2302  0.0  0.0 464104  9876 ?        SLsl 09:31   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+quantal+    2315  0.0  0.0  11524  7196 ?        Ss   09:31   0:03 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+quantal+    2361  0.0  0.0 536560  7368 ?        Ssl  09:31   0:00 /usr/libexec/xdg-document-portal
+quantal+    2365  0.0  0.0 309308  5984 ?        Ssl  09:31   0:00 /usr/libexec/xdg-permission-store
+root        2372  0.0  0.0   2704  1940 ?        Ss   09:31   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+quantal+    2396  0.0  0.0 235668  5744 tty2     Ssl+ 09:31   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+quantal+    2405  0.0  0.0 298236 15912 tty2     Sl+  09:31   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+quantal+    2476  0.0  0.0 162652  7044 ?        Ssl  09:31   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+quantal+    2477  0.0  0.0  91548  5536 ?        Ssl  09:31   0:00 /usr/libexec/gnome-session-ctl --monitor
+quantal+    2491  0.0  0.0 314268  7620 ?        Ssl  09:31   0:00 /usr/libexec/gvfsd
+quantal+    2499  0.0  0.0 459708  6732 ?        Sl   09:31   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+quantal+    2502  0.0  0.0 667956 17888 ?        Ssl  09:31   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+quantal+    2533  6.2  1.4 4988480 340620 ?      Ssl  09:31  20:44 /usr/bin/gnome-shell
+quantal+    2535  0.0  0.0 382944  7604 ?        Sl   09:31   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+quantal+    2546  0.0  0.0   9612  5028 ?        S    09:31   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+quantal+    2632  0.0  0.0 236068  7208 ?        Sl   09:31   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+quantal+    2662  0.0  0.0 654708 16624 ?        Sl   09:31   0:00 /usr/libexec/gnome-shell-calendar-server
+quantal+    2664  0.0  0.1 428520 28168 ?        Sl   09:31   0:00 /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+quantal+    2672  0.0  0.1 1272688 42552 ?       Ssl  09:31   0:00 /usr/libexec/evolution-source-registry
+quantal+    2673  0.0  0.0 230240  5504 ?        Ssl  09:31   0:00 /usr/libexec/dconf-service
+quantal+    2685  0.0  0.1 2859252 26440 ?       Sl   09:31   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quantal+    2700  0.3  0.0 388836 11872 ?        Ssl  09:31   1:08 /usr/bin/ibus-daemon --panel disable
+quantal+    2702  0.0  0.0 383524  6300 ?        Ssl  09:31   0:00 /usr/libexec/gsd-a11y-settings
+quantal+    2703  0.0  0.0 412920 19796 ?        Ssl  09:31   0:00 /usr/libexec/gsd-color
+quantal+    2708  0.0  0.0 431676 11872 ?        Ssl  09:31   0:00 /usr/libexec/gsd-datetime
+quantal+    2711  0.0  0.0 458876  7420 ?        Ssl  09:31   0:00 /usr/libexec/gsd-housekeeping
+quantal+    2712  0.0  0.0 411860 18656 ?        Ssl  09:31   0:00 /usr/libexec/gsd-keyboard
+quantal+    2716  0.0  0.1 659732 24380 ?        Ssl  09:31   0:02 /usr/libexec/gsd-media-keys
+quantal+    2720  0.0  0.1 592812 25456 ?        Ssl  09:31   0:01 /usr/libexec/gsd-power
+quantal+    2723  0.0  0.0 323628 11492 ?        Ssl  09:31   0:00 /usr/libexec/gsd-print-notifications
+quantal+    2724  0.0  0.0 531084  6324 ?        Ssl  09:31   0:00 /usr/libexec/gsd-rfkill
+quantal+    2728  0.0  0.0 309556  5996 ?        Ssl  09:31   0:00 /usr/libexec/gsd-screensaver-proxy
+quantal+    2732  0.0  0.0 543320 11492 ?        Ssl  09:31   0:01 /usr/libexec/gsd-sharing
+quantal+    2734  0.0  0.0 385824  7820 ?        Ssl  09:31   0:00 /usr/libexec/gsd-smartcard
+quantal+    2737  0.0  0.0 393640  9660 ?        Ssl  09:31   0:00 /usr/libexec/gsd-sound
+quantal+    2739  0.0  0.0 305492  7076 ?        Sl   09:31   0:00 /usr/libexec/gsd-disk-utility-notify
+quantal+    2742  0.0  0.0 412744 19936 ?        Ssl  09:31   0:00 /usr/libexec/gsd-wacom
+quantal+    2743  0.0  0.0 546664 23824 ?        Sl   09:31   0:00 /usr/libexec/goa-daemon
+quantal+    2760  0.0  0.2 897484 59572 ?        Sl   09:31   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+quantal+    2878  0.0  0.0 389124  8848 ?        Sl   09:31   0:00 /usr/libexec/goa-identity-service
+quantal+    2892  0.0  0.0 310468  6816 ?        Sl   09:31   0:00 /usr/libexec/ibus-dconf
+quantal+    2895  0.0  0.1 421576 28856 ?        Sl   09:31   0:18 /usr/libexec/ibus-extension-gtk3
+quantal+    2909  0.0  0.0 310424  6872 ?        Sl   09:31   0:00 /usr/libexec/ibus-portal
+quantal+    2912  0.0  0.0 389324 10356 ?        Ssl  09:31   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+quantal+    2934  0.0  0.0 1431552 23576 ?       Ssl  09:31   0:00 /usr/libexec/evolution-calendar-factory
+quantal+    2956  0.0  0.0 309792  6440 ?        Ssl  09:31   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+quantal+    2968  0.0  0.1 833636 29356 ?        Ssl  09:31   0:00 /usr/libexec/evolution-addressbook-factory
+quantal+    2970  0.0  0.0 310760  6728 ?        Ssl  09:31   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+quantal+    2975  0.0  0.0 389376  7748 ?        Ssl  09:31   0:00 /usr/libexec/gvfs-afc-volume-monitor
+quantal+    2987  0.0  0.0 309772  6312 ?        Ssl  09:31   0:00 /usr/libexec/gvfs-goa-volume-monitor
+quantal+    3010  0.1  0.0 236896  6872 ?        Sl   09:31   0:20 /usr/libexec/ibus-engine-simple
+quantal+    3043  0.0  0.0 535708  8636 ?        Sl   09:31   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+quantal+    3064  0.0  0.1 2924724 27100 ?       Sl   09:31   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quantal+    3081  0.0  0.0 701744 14152 ?        Ssl  09:31   0:00 /usr/libexec/xdg-desktop-portal
+quantal+    3104  0.0  0.0 416236 14892 ?        Sl   09:31   0:00 /usr/libexec/gsd-printer
+quantal+    3105  0.0  0.1 883128 29024 ?        SNsl 09:31   0:02 /usr/libexec/tracker-miner-fs-3
+quantal+    3111  0.0  0.6 1844020 158372 ?      Ssl  09:31   0:06 /usr/libexec/xdg-desktop-portal-gnome
+quantal+    3181  0.0  0.1 417804 25620 ?        Ssl  09:31   0:00 /usr/libexec/xdg-desktop-portal-gtk
+quantal+    3191  0.0  0.0 236340  6320 ?        Ssl  09:31   0:00 /usr/libexec/gvfsd-metadata
+quantal+    3265  0.1  0.8 1916796 200964 ?      Sl   09:32   0:37 /usr/bin/nautilus --gapplication-service
+quantal+    3291  0.0  0.0 388744  8652 ?        Sl   09:32   0:00 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+quantal+    3310  0.0  0.1 569320 32348 ?        Sl   09:32   0:00 /usr/bin/update-notifier
+quantal+    3886  0.6  0.4 574896 100836 ?       Sl   09:33   2:04 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.OLJ9C3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+quantal+    3940  0.0  0.3 792024 83804 ?        Ssl  09:33   0:00 /usr/libexec/gsd-xsettings
+quantal+    3969  0.0  0.0 267156 24012 ?        Sl   09:33   0:00 /usr/libexec/ibus-x11
+quantal+    3976  0.0  0.3 1019892 87628 ?       Sl   09:33   0:12 /usr/libexec/mutter-x11-frames
+cups-br+    4143  0.0  0.0 268480 19476 ?        Ssl  09:33   0:00 /usr/sbin/cups-browsed
+root        4144  0.0  0.2 2491496 72788 ?       Ssl  09:33   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+mongodb     4146  0.6  0.6 556204 154236 ?       Ssl  09:33   2:13 /usr/bin/mongod --config /etc/mongod.conf
+kernoops    4149  0.0  0.0  12744  2172 ?        Ss   09:33   0:00 /usr/sbin/kerneloops --test
+kernoops    4159  0.0  0.0  12744  1936 ?        Ss   09:33   0:00 /usr/sbin/kerneloops
+root        4161  0.0  0.0  11156  1644 ?        Ss   09:33   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+quantal+    4162  0.0  0.0  13000  4640 ?        S    09:33   0:00 nginx: worker process
+quantal+    4163  0.0  0.0  13000  4640 ?        S    09:33   0:00 nginx: worker process
+quantal+    4164  0.0  0.0  13000  4664 ?        S    09:33   0:00 nginx: worker process
+quantal+    4165  0.0  0.0  13000  4640 ?        S    09:33   0:00 nginx: worker process
+quantal+    4166  0.0  0.0  13000  4664 ?        S    09:33   0:00 nginx: worker process
+quantal+    4167  0.0  0.0  13000  4640 ?        S    09:33   0:00 nginx: worker process
+quantal+    4168  0.0  0.0  13000  4640 ?        S    09:33   0:00 nginx: worker process
+quantal+    4169  0.0  0.0  13000  4576 ?        S    09:33   0:00 nginx: worker process
+quantal+    4170  0.0  0.0  13000  4640 ?        S    09:33   0:00 nginx: worker process
+quantal+    4171  0.0  0.0  13000  4640 ?        S    09:33   0:00 nginx: worker process
+quantal+    4172  0.0  0.0  13000  4640 ?        S    09:33   0:00 nginx: worker process
+quantal+    4173  0.0  0.0  13000  4644 ?        S    09:33   0:00 nginx: worker process
+root        4214  0.0  0.0   2896  1592 ?        S    09:33   0:00 inotifywait -q -m -e modify -e create -e delete --format %w%f /run/NetworkManager /opt/valet-linux/custom-nameservers
+root        4215  0.0  0.0  10072  2284 ?        S    09:33   0:00 bash /opt/valet-linux/valet-dns start
+root        6020  0.0  0.1 481812 43608 ?        Ssl  09:36   0:03 /usr/libexec/fwupd/fwupd
+quantal+    6308  0.0  0.0   8432  5768 ?        S    09:36   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+root        7733  0.0  0.0      0     0 ?        S    09:42   0:00 [psimon]
+quantal+   13343  0.1  0.2 722004 65024 ?        Ssl  11:08   0:20 /usr/libexec/gnome-terminal-server
+quantal+   13351  0.0  0.0  15092  8936 pts/0    Ss   11:08   0:00 bash
+quantal+   13647  0.0  0.0  15092  9128 pts/1    Ss   11:08   0:00 bash
+quantal+   13907  0.6  0.8 1461624816 217524 ?   SLl  11:08   1:36 /usr/share/code/code /home/quantalynk/Quanta Nextjs/client
+quantal+   13911  0.0  0.2 34069948 49644 ?      S    11:08   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+quantal+   13912  0.0  0.2 34069940 49936 ?      S    11:08   0:00 /usr/share/code/code --type=zygote
+quantal+   13914  0.0  0.0 34069968 12428 ?      S    11:08   0:00 /usr/share/code/code --type=zygote
+quantal+   13933  0.0  0.0 33576148 3352 ?       Sl   11:08   0:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/quantalynk/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=c9797899-e276-46b9-bc25-ee3c0bc3cad9&iid=c9797899-e276-46b9-bc25-ee3c0bc3cad9&sid=c9797899-e276-46b9-bc25-ee3c0bc3cad9 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.103.2 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=37.2.3 --initial-client-fd=44 --shared-client-connection
+quantal+   13951  1.8  0.7 34539644 174728 ?     Sl   11:08   4:16 /usr/share/code/code --type=zygote --no-zygote-sandbox
+quantal+   13956  0.0  0.3 33874376 73052 ?      Sl   11:08   0:03 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=13933 --enable-crash-reporter=ee84c073-b6f6-4403-aaf7-49d333bf20cf,no_channel --user-data-dir=/home/quantalynk/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8133599628222613322,6760278876620730244,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+quantal+   13993  5.9  2.2 1480162832 534944 ?   Sl   11:08  13:55 /usr/share/code/code --type=zygote
+quantal+   14223  0.7  0.7 1463003040 190720 ?   Sl   11:08   1:38 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --crashpad-handler-pid=13933 --enable-crash-reporter=ee84c073-b6f6-4403-aaf7-49d333bf20cf,no_channel --user-data-dir=/home/quantalynk/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8133599628222613322,6760278876620730244,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+quantal+   14235  0.0  0.4 1461293840 116624 ?   Sl   11:08   0:08 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=13933 --enable-crash-reporter=ee84c073-b6f6-4403-aaf7-49d333bf20cf,no_channel --user-data-dir=/home/quantalynk/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8133599628222613322,6760278876620730244,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+quantal+   14236  0.1  0.5 1461310848 127460 ?   Sl   11:08   0:19 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=13933 --enable-crash-reporter=ee84c073-b6f6-4403-aaf7-49d333bf20cf,no_channel --user-data-dir=/home/quantalynk/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8133599628222613322,6760278876620730244,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+quantal+   14279  0.0  0.6 1459515364 147776 ?   Sl   11:08   0:13 /usr/share/code/code --max-old-space-size=3072 /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript1000/bb469ab4b53f5977b102/tscancellation-f4fb08883a415087ca7b.tmp* --globalPlugins vue-typescript-plugin-pack --pluginProbeLocations /home/quantalynk/.vscode/extensions/vue.volar-3.0.8 --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc
+quantal+   14280  2.7  1.5 1459515364 380936 ?   Sl   11:08   6:17 /usr/share/code/code --max-old-space-size=3072 /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript1000/bb469ab4b53f5977b102/tscancellation-4e3d4b7b1a5d06fb9b97.tmp* --globalPlugins vue-typescript-plugin-pack --pluginProbeLocations /home/quantalynk/.vscode/extensions/vue.volar-3.0.8 --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc
+quantal+   14319  0.0  0.4 1459515364 101296 ?   Sl   11:08   0:01 /usr/share/code/code /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/quantalynk/.cache/typescript/5.9 --enableTelemetry --typesMapLocation /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation
+quantal+   14658  0.3  0.6 1459575736 147196 ?   Sl   11:08   0:47 /usr/share/code/code /home/quantalynk/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.26/dist/tailwindServer.js --node-ipc --clientProcessId=14223
+quantal+   14880  0.0  0.3 1459548148 93964 ?    Sl   11:08   0:02 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=14223
+quantal+   15244  5.8  1.9 34567868 466080 ?     SLl  11:25  12:39 /opt/google/chrome/chrome
+quantal+   15251  0.0  0.0   8428  1692 ?        S    11:25   0:00 cat
+quantal+   15252  0.0  0.0   8428  1692 ?        S    11:25   0:00 cat
+quantal+   15254  0.0  0.0 33604608 13564 ?      Sl   11:25   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/quantalynk/.config/google-chrome/Crash Reports --metrics-dir=/home/quantalynk/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=140.0.7339.127 --initial-client-fd=5 --shared-client-connection
+quantal+   15256  0.0  0.0 33568324 3360 ?       Sl   11:25   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/quantalynk/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=140.0.7339.127 --initial-client-fd=4 --shared-client-connection
+quantal+   15262  0.0  0.2 34219228 64400 ?      S    11:25   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable
+quantal+   15263  0.0  0.2 34219216 63892 ?      S    11:25   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable
+quantal+   15265  0.0  0.0 34219244 17584 ?      S    11:25   0:01 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable
+quantal+   15297  3.6  1.1 34743988 273904 ?     Sl   11:25   7:57 /opt/google/chrome/chrome --type=gpu-process --ozone-platform=wayland --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=4,i,13185687699224745483,4851033880750666858,262144 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   15299  2.6  0.6 34048720 169204 ?     Sl   11:25   5:46 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,7236303374832496649,14559355291716234173,524288 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   15313  0.0  0.2 34287012 61364 ?      Sl   11:25   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5484448969442886841,6458970084740411105,524288 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   15506  0.0  0.6 1283885612 152800 ?   Sl   11:25   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=14 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=6825764361 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,17733709737994767755,16726431224656906401,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   16209  1.9  1.3 1285654656 334280 ?   Sl   11:38   3:59 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=48 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=7582759026 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12400989041144380065,8353932000430693815,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   16497  0.0  0.2 1112348 61064 pts/0   Sl+  11:40   0:00 npm run dev
+quantal+   16508  0.0  0.0   2804  1644 pts/0    S+   11:40   0:00 sh -c next dev --turbopack
+quantal+   16509  0.0  0.6 24219556 156708 pts/0 Sl+  11:40   0:00 node /home/quantalynk/Quanta Nextjs/client/node_modules/.bin/next dev --turbopack
+quantal+   16532  1.4  5.5 29510764 1339332 pts/0 Sl+ 11:40   2:52 next-server (v15.5.3)
+quantal+   16588  0.2  0.5 2589784 143020 pts/0  Sl+  11:40   0:35 node /home/quantalynk/Quanta Nextjs/client/.next/postcss.js 46293
+quantal+   17696  0.0  0.3 34029516 85080 ?      Sl   11:52   0:02 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5924487523626878301,8353523031755571524,524288 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+root       17849  0.0  0.0      0     0 ?        I    11:57   0:01 [kworker/1:2-mm_percpu_wq]
+quantal+   18762  1.2  4.6 1287380664 1127996 ?  Sl   12:07   2:08 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=148 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=9318428603 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9337149573312035895,6700298146669444807,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   19095  0.9  1.0 1283907492 247544 ?   Sl   12:13   1:37 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=16 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=9726179678 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15597288603224124438,12374831176096273299,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   19165  1.3  1.8 1283905764 443056 ?   Sl   12:14   2:18 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=157 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=9753568801 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,964245692853228491,9116989764145118475,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   19744  0.0  0.4 1283867072 114236 ?   Sl   12:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --extension-process --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=170 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=10489129101 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9741305664381881265,14243697439566514810,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   20054  0.0  0.2 1112344 60836 pts/1   Sl+  12:35   0:00 npm run develop
+quantal+   20065  0.0  0.0   2804  1644 pts/1    S+   12:35   0:00 sh -c strapi develop
+quantal+   20066  0.2  0.8 22393928 197496 pts/1 Sl+  12:35   0:22 node /home/quantalynk/Quanta/node_modules/.bin/strapi develop
+quantal+   20087  0.9  0.9 1283929680 220816 ?   Sl   12:35   1:26 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=183 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=11038434996 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,10539236428556237377,14018850214272363314,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   21854  0.0  0.0 462196  8044 ?        Sl   12:52   0:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/2
+quantal+   21866  0.0  0.0 390548  8472 ?        Sl   12:52   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+root       23968  0.0  0.0      0     0 ?        I    13:16   0:00 [kworker/2:2-events]
+root       23970  0.0  0.0      0     0 ?        I    13:16   0:02 [kworker/0:2-events]
+root       24315  0.1  0.0      0     0 ?        I    13:59   0:07 [kworker/u48:53-flush-259:0]
+root       24316  0.0  0.0      0     0 ?        S    13:59   0:00 [irq/140-mei_me]
+quantal+   24469  0.0  0.2 3217264 69244 ?       Sl   13:59   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quantal+   24556  0.3  1.0 1283898848 243804 ?   Sl   13:59   0:11 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=270 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=12809532640 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,14869109773424475649,11050664716283217018,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   24995  4.7  1.5 1287413152 378596 ?   Sl   14:00   2:56 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=285 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=12857230410 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,14233239603164031548,7155285593416544895,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   25150  0.0  0.5 1283867540 129668 ?   Sl   14:04   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=296 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=13114620381 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,2991261144240035925,5792243782456548293,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+root       26182  0.0  0.0      0     0 ?        I    14:13   0:00 [kworker/8:2]
+root       26183  0.0  0.0      0     0 ?        I    14:13   0:00 [kworker/3:1-cgroup_destroy]
+root       26228  0.0  0.0      0     0 ?        I    14:16   0:00 [kworker/9:1-i915-unordered]
+root       26737  0.0  0.0      0     0 ?        I    14:24   0:01 [kworker/6:1-events]
+root       26927  0.2  0.0      0     0 ?        I    14:26   0:04 [kworker/u48:1-i915]
+root       27218  0.0  0.0      0     0 ?        I    14:29   0:01 [kworker/7:0-mm_percpu_wq]
+quantal+   27263  0.0  0.6 1283885236 157928 ?   Sl   14:30   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=373 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=14662263807 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16534474410599715021,3803501930616561685,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+root       27315  0.3  0.0      0     0 ?        I    14:34   0:04 [kworker/u48:0-kvfree_rcu_reclaim]
+quantal+   27341  1.1  2.0 35239460 499312 pts/1 Sl+  14:35   0:18 /home/quantalynk/.nvm/versions/node/v22.19.0/bin/node /home/quantalynk/Quanta/node_modules/.bin/strapi develop
+quantal+   27354  0.1  0.0 1237748 11332 pts/1   Sl+  14:35   0:01 /home/quantalynk/Quanta/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+root       27387  0.0  0.0      0     0 ?        I    14:35   0:00 [kworker/3:0-mm_percpu_wq]
+root       27411  0.1  0.0      0     0 ?        I    14:35   0:02 [kworker/4:1-events]
+quantal+   27630  0.0  0.0   9940  3472 ?        S    14:38   0:00 /bin/bash /usr/bin/brave-browser-stable
+quantal+   27635  0.0  0.0   8428  1692 ?        S    14:38   0:00 cat
+quantal+   27636  0.0  0.0   8428  1692 ?        S    14:38   0:00 cat
+quantal+   27637  6.5  1.6 34504880 393516 ?     SLl  14:38   1:31 /opt/brave.com/brave/brave
+quantal+   27639  0.0  0.0 33577564 3664 ?       Sl   14:38   0:00 /opt/brave.com/brave/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/quantalynk/.config/BraveSoftware/Brave-Browser/Crash Reports --metrics-dir=/home/quantalynk/.config/BraveSoftware/Brave-Browser --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=140.1.82.166 --initial-client-fd=5 --shared-client-connection
+quantal+   27641  0.0  0.0 33568328 3348 ?       Sl   14:38   0:00 /opt/brave.com/brave/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/quantalynk/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=140.1.82.166 --initial-client-fd=4 --shared-client-connection
+quantal+   27647  0.0  0.2 34185520 70576 ?      S    14:38   0:00 /opt/brave.com/brave/brave --type=zygote --no-zygote-sandbox --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --change-stack-guard-on-fork=enable
+quantal+   27648  0.0  0.2 34185512 70508 ?      S    14:38   0:00 /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --change-stack-guard-on-fork=enable
+quantal+   27650  0.0  0.0 34185536 18500 ?      S    14:38   0:00 /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --change-stack-guard-on-fork=enable
+quantal+   27682  9.0  0.9 34641676 232364 ?     Sl   14:38   2:05 /opt/brave.com/brave/brave --type=gpu-process --ozone-platform=wayland --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=4,i,2240326145235279984,6271895611942969618,262144 --field-trial-handle=3,i,2981081374005829721,10174739752445905970,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54
+quantal+   27684  2.0  0.5 34055788 130828 ?     Sl   14:38   0:28 /opt/brave.com/brave/brave --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12899981048230248345,16076352190887858379,524288 --field-trial-handle=3,i,2981081374005829721,10174739752445905970,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54
+quantal+   27700  0.0  0.2 34252152 58012 ?      Sl   14:38   0:00 /opt/brave.com/brave/brave --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3304062517818632189,13112453512763600381,524288 --field-trial-handle=3,i,2981081374005829721,10174739752445905970,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54
+quantal+   27981  0.0  0.6 1283847384 149540 ?   Sl   14:39   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=16 --time-ticks-at-unix-epoch=-1758948952598476 --launch-time-ticks=15195709402 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9738987331319860049,6275742104915636884,2097152 --field-trial-handle=3,i,2981081374005829721,10174739752445905970,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54
+root       28155  0.0  0.0      0     0 ?        I    14:39   0:00 [kworker/9:0-mm_percpu_wq]
+quantal+   28173  0.7  0.3 34075940 94412 ?      Sl   14:39   0:10 /opt/brave.com/brave/brave --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,11420934532121047266,10002740612053897598,524288 --field-trial-handle=3,i,2981081374005829721,10174739752445905970,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54
+root       28275  0.0  0.0      0     0 ?        I    14:40   0:00 [kworker/10:2-mm_percpu_wq]
+root       28278  0.0  0.0      0     0 ?        I    14:40   0:00 [kworker/1:0]
+root       28324  0.0  0.0      0     0 ?        I    14:40   0:00 [kworker/6:0-events]
+root       28361  0.0  0.0      0     0 ?        I    14:40   0:00 [kworker/11:2-mm_percpu_wq]
+root       28533  0.2  0.0      0     0 ?        I    14:42   0:02 [kworker/u48:3-kvfree_rcu_reclaim]
+quantal+   28680  5.2  1.6 1283920660 409452 ?   Sl   14:44   0:52 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=54 --time-ticks-at-unix-epoch=-1758948952598476 --launch-time-ticks=15537113092 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5210677969414401647,7031458647930506319,2097152 --field-trial-handle=3,i,2981081374005829721,10174739752445905970,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54
+root       28818  0.2  0.0      0     0 ?        I<   14:45   0:02 [kworker/u49:3-rb_allocator]
+root       28835  0.0  0.0      0     0 ?        I    14:45   0:00 [kworker/10:0-mm_percpu_wq]
+root       28849  0.0  0.0      0     0 ?        I    14:45   0:00 [kworker/5:1-events]
+root       28892  0.0  0.0      0     0 ?        I    14:47   0:00 [kworker/2:1-events]
+root       28904  0.3  0.0  34812  9920 ?        S    14:48   0:02 (udev-worker)
+root       28916  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/8:0-events]
+root       28917  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/11:0-mm_percpu_wq]
+root       28922  0.0  0.0      0     0 ?        I    14:50   0:00 [kworker/4:3-mm_percpu_wq]
+root       28935  0.2  0.0      0     0 ?        I<   14:50   0:01 [kworker/u49:0-rb_allocator]
+root       28936  0.0  0.0      0     0 ?        I    14:50   0:00 [kworker/5:0-events]
+root       28953  0.0  0.0      0     0 ?        I    14:51   0:00 [kworker/0:0]
+root       29015  0.1  0.0      0     0 ?        I    14:52   0:01 [kworker/7:1-i915-unordered]
+root       29063  0.3  0.0      0     0 ?        D<   14:55   0:01 [kworker/u49:2+i915_flip]
+root       29075  0.2  0.0      0     0 ?        I    14:56   0:00 [kworker/u48:4-flush-259:0]
+root       29083  0.0  0.0      0     0 ?        I    14:56   0:00 [kworker/5:2-events]
+root       29084  0.0  0.0      0     0 ?        I    14:56   0:00 [kworker/5:3-events]
+root       29111  0.1  0.0      0     0 ?        I    14:57   0:00 [kworker/4:0-events]
+root       29142  0.0  0.0      0     0 ?        I    14:58   0:00 [kworker/9:2-events]
+root       29174  0.0  0.0      0     0 ?        I    14:58   0:00 [kworker/11:1-cgroup_destroy]
+root       29210  0.0  0.0      0     0 ?        I    14:59   0:00 [kworker/8:1-mm_percpu_wq]
+quantal+   29232  0.0  0.3 1283771848 74956 ?    Sl   14:59   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=27639 --enable-crash-reporter=6031b9fd-1ea0-47ee-a282-01b20dfe8fe0, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=66 --time-ticks-at-unix-epoch=-1758948952598476 --launch-time-ticks=16421920739 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9572390073858262480,1217849888929084381,2097152 --field-trial-handle=3,i,2981081374005829721,10174739752445905970,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54
+quantal+   29252  0.3  0.4 1285549116 118792 ?   Sl   15:00   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --extension-process --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=406 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=16450021776 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16738233781010553389,4987022687163177192,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+root       29264  0.0  0.0      0     0 ?        I    15:00   0:00 [kworker/3:2]
+quantal+   29375 23.2  1.7 1285684484 420116 ?   Sl   15:00   0:19 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=411 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=16459074874 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,8833007525461916402,12013964082647192954,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+quantal+   29397  0.0  0.3 1283801056 74492 ?    Sl   15:00   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15254 --enable-crash-reporter=c80d9298-8404-4cd2-8529-20d144a6e276, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=413 --time-ticks-at-unix-epoch=-1758945704023248 --launch-time-ticks=16460180707 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,18161013043407590154,1356082204279941278,2097152 --field-trial-handle=3,i,6051614318595002664,13162182000415166535,262144 --disable-features=EyeDropper --variations-seed-version=20250926-130007.640000
+root       29447  0.0  0.0      0     0 ?        I    15:01   0:00 [kworker/0:1]
+quantal+   29451  0.7  0.0 527016 16872 ?        Sl   15:01   0:00 /usr/libexec/gnome-calculator-search-provider
+quantal+   29453  7.1  0.6 4018168 164796 ?      Sl   15:01   0:00 /usr/bin/gjs-console /usr/bin/gnome-characters --gapplication-service
+quantal+   29455  4.4  0.2 565892 48672 ?        Sl   15:01   0:00 /usr/bin/gnome-clocks --gapplication-service
+quantal+   29459  2.5  0.1 499148 30012 ?        Sl   15:01   0:00 /usr/libexec/gnome-control-center-search-provider
+quantal+   29571  2.2  0.0  15092  8984 pts/2    Ss   15:01   0:00 bash
+quantal+   29777  0.0  0.0  13880  4828 pts/2    R+   15:01   0:00 ps aux
+quantal+   29778  0.0  0.0   8672  2452 pts/2    S+   15:01   0:00 less

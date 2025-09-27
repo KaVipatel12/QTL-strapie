@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_why_choose_us_strips",
+  "info": {
+    "singularName": "hero-why-choose-us-strip",
+    "pluralName": "hero-why-choose-us-strips",
+    "displayName": "Hero WhyChooseUs-Strip"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

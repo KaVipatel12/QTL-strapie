@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_pointers",
+  "info": {
+    "displayName": "pointers"
+  },
+  "options": {},
+  "attributes": {
+    "pointer1": {
+      "type": "string"
+    },
+    "pointer2": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

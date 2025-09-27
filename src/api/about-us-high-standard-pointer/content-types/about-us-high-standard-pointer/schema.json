@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_high_standard_pointers",
+  "info": {
+    "singularName": "about-us-high-standard-pointer",
+    "pluralName": "about-us-high-standard-pointers",
+    "displayName": "AboutUs HighStandard-Pointer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

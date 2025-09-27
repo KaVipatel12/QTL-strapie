@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_page_stat_points",
+  "info": {
+    "singularName": "service-page-stat-point",
+    "pluralName": "service-page-stat-points",
+    "displayName": "ServicePage StatPoint"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Point": {
+      "type": "string"
+    }
+  }
+}

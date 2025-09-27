@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_faqs",
+  "info": {
+    "displayName": "Faq"
+  },
+  "options": {},
+  "attributes": {
+    "Faq1": {
+      "type": "string"
+    },
+    "Faq2": {
+      "type": "string"
+    },
+    "Faq3": {
+      "type": "string"
+    },
+    "Faq4": {
+      "type": "string"
+    },
+    "Faq5": {
+      "type": "string"
+    },
+    "Faq6": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

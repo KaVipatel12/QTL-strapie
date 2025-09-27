@@ -521,6 +521,70 @@ export interface ApiAboutTeamAboutTeam extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiAboutUsHighStandardPointerAboutUsHighStandardPointer
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'about_us_high_standard_pointers';
+  info: {
+    displayName: 'AboutUs HighStandard-Pointer';
+    pluralName: 'about-us-high-standard-pointers';
+    singularName: 'about-us-high-standard-pointer';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Description: Schema.Attribute.String;
+    Heading: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us-high-standard-pointer.about-us-high-standard-pointer'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiAboutUsStatsBarAboutUsStatsBar
+  extends Struct.SingleTypeSchema {
+  collectionName: 'about_us_stats_bars';
+  info: {
+    displayName: 'AboutUs StatsBar';
+    pluralName: 'about-us-stats-bars';
+    singularName: 'about-us-stats-bar';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    HonableAward: Schema.Attribute.String;
+    HonableAward_digit: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us-stats-bar.about-us-stats-bar'
+    > &
+      Schema.Attribute.Private;
+    ProjectsCompleted: Schema.Attribute.String;
+    ProjectsCompleted_digit: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    SatisfiedCostumers: Schema.Attribute.String;
+    SatisfiedCostumers_digit: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiAboutUsAboutUs extends Struct.SingleTypeSchema {
   collectionName: 'about_uses';
   info: {
@@ -563,6 +627,11 @@ export interface ApiAboutWhoWeAreAboutWhoWeAre extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    ceoImage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    ceoName: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -755,6 +824,91 @@ export interface ApiContactBannerContactBanner extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiContactBusinessInquiryPointerContactBusinessInquiryPointer
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'contact_business_inquiry_pointers';
+  info: {
+    displayName: 'Contact BusinessInquiry-Pointer';
+    pluralName: 'contact-business-inquiry-pointers';
+    singularName: 'contact-business-inquiry-pointer';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::contact-business-inquiry-pointer.contact-business-inquiry-pointer'
+    > &
+      Schema.Attribute.Private;
+    pointers: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiContactBusinessInquiryContactBusinessInquiry
+  extends Struct.SingleTypeSchema {
+  collectionName: 'contact_business_inquiries';
+  info: {
+    displayName: 'Contact BusinessInquiry';
+    pluralName: 'contact-business-inquiries';
+    singularName: 'contact-business-inquiry';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Heading: Schema.Attribute.String;
+    img: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::contact-business-inquiry.contact-business-inquiry'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiFaqFaq extends Struct.CollectionTypeSchema {
+  collectionName: 'faqs';
+  info: {
+    displayName: 'Faq';
+    pluralName: 'faqs';
+    singularName: 'faq';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    Answer: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::faq.faq'> &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    Question: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   collectionName: 'globals';
   info: {
@@ -781,6 +935,35 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     siteDescription: Schema.Attribute.Text & Schema.Attribute.Required;
     siteName: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiHeadingHeading extends Struct.SingleTypeSchema {
+  collectionName: 'headings';
+  info: {
+    displayName: 'AboutUs HighStandard';
+    pluralName: 'headings';
+    singularName: 'heading';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Description: Schema.Attribute.String;
+    Heading: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::heading.heading'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1070,7 +1253,7 @@ export interface ApiHeroFaqSingleHeroFaqSingle extends Struct.SingleTypeSchema {
   };
 }
 
-export interface ApiHeroFaqHeroFaq extends Struct.CollectionTypeSchema {
+export interface ApiHeroFaqHeroFaq extends Struct.SingleTypeSchema {
   collectionName: 'hero_faqs';
   info: {
     displayName: 'Hero FAQ';
@@ -1081,10 +1264,10 @@ export interface ApiHeroFaqHeroFaq extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    Answer: Schema.Attribute.Blocks;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    Faq: Schema.Attribute.DynamicZone<['shared.faq', 'shared.answer']>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -1092,7 +1275,6 @@ export interface ApiHeroFaqHeroFaq extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    question: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1229,6 +1411,68 @@ export interface ApiHeroServiceHeroService extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiHeroSolutionWeProvideCardHeroSolutionWeProvideCard
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'hero_solution_we_provide_cards';
+  info: {
+    displayName: 'Hero HowItWorksCards';
+    pluralName: 'hero-solution-we-provide-cards';
+    singularName: 'hero-solution-we-provide-card';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    Cards: Schema.Attribute.Component<'shared.steps', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Description: Schema.Attribute.Text;
+    Heading: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::hero-solution-we-provide-card.hero-solution-we-provide-card'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiHeroSolutionWeProvideHeroSolutionWeProvide
+  extends Struct.SingleTypeSchema {
+  collectionName: 'hero_solution_we_provides';
+  info: {
+    displayName: 'Hero HowItWorks';
+    pluralName: 'hero-solution-we-provides';
+    singularName: 'hero-solution-we-provide';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Description: Schema.Attribute.String;
+    Heading: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::hero-solution-we-provide.hero-solution-we-provide'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    SubHeading: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiHeroStrategieHeroStrategie
   extends Struct.CollectionTypeSchema {
   collectionName: 'hero_strategies';
@@ -1282,6 +1526,7 @@ export interface ApiHeroTrustedPointHeroTrustedPoint
     desc1: Schema.Attribute.Text;
     desc2: Schema.Attribute.Text;
     desc3: Schema.Attribute.String;
+    img: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -1320,6 +1565,36 @@ export interface ApiHeroTrustedHeroTrusted extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     rightText: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiHeroWhyChooseUsStripHeroWhyChooseUsStrip
+  extends Struct.SingleTypeSchema {
+  collectionName: 'hero_why_choose_us_strips';
+  info: {
+    displayName: 'Hero WhyChooseUs-Strip';
+    pluralName: 'hero-why-choose-us-strips';
+    singularName: 'hero-why-choose-us-strip';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Description: Schema.Attribute.String;
+    Heading: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::hero-why-choose-us-strip.hero-why-choose-us-strip'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1553,6 +1828,39 @@ export interface ApiServiceIotAndSmartServiceIotAndSmart
   };
 }
 
+export interface ApiServiceItemServiceItem extends Struct.CollectionTypeSchema {
+  collectionName: 'service_items';
+  info: {
+    displayName: 'Service Item';
+    pluralName: 'service-items';
+    singularName: 'service-item';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Heading: Schema.Attribute.String;
+    img: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+    LeftPara: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::service-item.service-item'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    RightPara: Schema.Attribute.String;
+    service_id: Schema.Attribute.UID;
+    SubHeading: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiServiceMenuServiceMenu extends Struct.CollectionTypeSchema {
   collectionName: 'service_menus';
   info: {
@@ -1575,6 +1883,104 @@ export interface ApiServiceMenuServiceMenu extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiServicePageHeroServicePageHero
+  extends Struct.SingleTypeSchema {
+  collectionName: 'service_page_heroes';
+  info: {
+    displayName: 'ServicePage Hero ';
+    pluralName: 'service-page-heroes';
+    singularName: 'service-page-hero';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Heading1: Schema.Attribute.String;
+    Heading2: Schema.Attribute.String;
+    img: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::service-page-hero.service-page-hero'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiServicePageStatPointServicePageStatPoint
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'service_page_stat_points';
+  info: {
+    displayName: 'ServicePage StatPoint';
+    pluralName: 'service-page-stat-points';
+    singularName: 'service-page-stat-point';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::service-page-stat-point.service-page-stat-point'
+    > &
+      Schema.Attribute.Private;
+    Point: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiServicePageStatServicePageStat
+  extends Struct.SingleTypeSchema {
+  collectionName: 'service_page_stats';
+  info: {
+    displayName: 'ServicePage Stat ';
+    pluralName: 'service-page-stats';
+    singularName: 'service-page-stat';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    banner: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Description: Schema.Attribute.String;
+    Heading: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::service-page-stat.service-page-stat'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    statImage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1675,6 +2081,37 @@ export interface ApiTeamGrTeamGr extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiTeamGridHeaderTeamGridHeader
+  extends Struct.SingleTypeSchema {
+  collectionName: 'team_grid_headers';
+  info: {
+    displayName: 'Team-Grid-Header';
+    pluralName: 'team-grid-headers';
+    singularName: 'team-grid-header';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Heading1: Schema.Attribute.String;
+    Heading2: Schema.Attribute.String;
+    Heading3: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::team-grid-header.team-grid-header'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -2256,6 +2693,8 @@ declare module '@strapi/strapi' {
       'api::about-building.about-building': ApiAboutBuildingAboutBuilding;
       'api::about-page.about-page': ApiAboutPageAboutPage;
       'api::about-team.about-team': ApiAboutTeamAboutTeam;
+      'api::about-us-high-standard-pointer.about-us-high-standard-pointer': ApiAboutUsHighStandardPointerAboutUsHighStandardPointer;
+      'api::about-us-stats-bar.about-us-stats-bar': ApiAboutUsStatsBarAboutUsStatsBar;
       'api::about-us.about-us': ApiAboutUsAboutUs;
       'api::about-who-we-are.about-who-we-are': ApiAboutWhoWeAreAboutWhoWeAre;
       'api::aboutus-team.aboutus-team': ApiAboutusTeamAboutusTeam;
@@ -2263,7 +2702,11 @@ declare module '@strapi/strapi' {
       'api::blog-page.blog-page': ApiBlogPageBlogPage;
       'api::blog.blog': ApiBlogBlog;
       'api::contact-banner.contact-banner': ApiContactBannerContactBanner;
+      'api::contact-business-inquiry-pointer.contact-business-inquiry-pointer': ApiContactBusinessInquiryPointerContactBusinessInquiryPointer;
+      'api::contact-business-inquiry.contact-business-inquiry': ApiContactBusinessInquiryContactBusinessInquiry;
+      'api::faq.faq': ApiFaqFaq;
       'api::global.global': ApiGlobalGlobal;
+      'api::heading.heading': ApiHeadingHeading;
       'api::hero-about.hero-about': ApiHeroAboutHeroAbout;
       'api::hero-blog.hero-blog': ApiHeroBlogHeroBlog;
       'api::hero-choose-us.hero-choose-us': ApiHeroChooseUsHeroChooseUs;
@@ -2278,9 +2721,12 @@ declare module '@strapi/strapi' {
       'api::hero-section.hero-section': ApiHeroSectionHeroSection;
       'api::hero-service-single.hero-service-single': ApiHeroServiceSingleHeroServiceSingle;
       'api::hero-service.hero-service': ApiHeroServiceHeroService;
+      'api::hero-solution-we-provide-card.hero-solution-we-provide-card': ApiHeroSolutionWeProvideCardHeroSolutionWeProvideCard;
+      'api::hero-solution-we-provide.hero-solution-we-provide': ApiHeroSolutionWeProvideHeroSolutionWeProvide;
       'api::hero-strategie.hero-strategie': ApiHeroStrategieHeroStrategie;
       'api::hero-trusted-point.hero-trusted-point': ApiHeroTrustedPointHeroTrustedPoint;
       'api::hero-trusted.hero-trusted': ApiHeroTrustedHeroTrusted;
+      'api::hero-why-choose-us-strip.hero-why-choose-us-strip': ApiHeroWhyChooseUsStripHeroWhyChooseUsStrip;
       'api::our-service.our-service': ApiOurServiceOurService;
       'api::our-team.our-team': ApiOurTeamOurTeam;
       'api::service-cloud-devop.service-cloud-devop': ApiServiceCloudDevopServiceCloudDevop;
@@ -2288,10 +2734,15 @@ declare module '@strapi/strapi' {
       'api::service-cyber-and-risk.service-cyber-and-risk': ApiServiceCyberAndRiskServiceCyberAndRisk;
       'api::service-da-and-er.service-da-and-er': ApiServiceDaAndErServiceDaAndEr;
       'api::service-iot-and-smart.service-iot-and-smart': ApiServiceIotAndSmartServiceIotAndSmart;
+      'api::service-item.service-item': ApiServiceItemServiceItem;
       'api::service-menu.service-menu': ApiServiceMenuServiceMenu;
+      'api::service-page-hero.service-page-hero': ApiServicePageHeroServicePageHero;
+      'api::service-page-stat-point.service-page-stat-point': ApiServicePageStatPointServicePageStatPoint;
+      'api::service-page-stat.service-page-stat': ApiServicePageStatServicePageStat;
       'api::service-ui-xi-design.service-ui-xi-design': ApiServiceUiXiDesignServiceUiXiDesign;
       'api::team-director.team-director': ApiTeamDirectorTeamDirector;
       'api::team-gr.team-gr': ApiTeamGrTeamGr;
+      'api::team-grid-header.team-grid-header': ApiTeamGridHeaderTeamGridHeader;
       'api::team-grid-t.team-grid-t': ApiTeamGridTTeamGridT;
       'api::team-member.team-member': ApiTeamMemberTeamMember;
       'plugin::content-releases.release': PluginContentReleasesRelease;

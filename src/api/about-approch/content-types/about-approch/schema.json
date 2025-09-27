@@ -23,16 +23,6 @@
     "rightText": {
       "type": "string"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "ourValue": {
       "type": "string"
     },
@@ -68,6 +58,16 @@
     },
     "visionDescri": {
       "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
